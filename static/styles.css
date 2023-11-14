@@ -1,0 +1,15 @@
+#inventory-title {
+    color: blue;
+}
+
+.product {
+    background-color: lightgray;
+}
+
+.product > .product-name {
+    font-size: 1.2em;
+}
+
+.product-id + .product-name {
+    color: red;
+}
